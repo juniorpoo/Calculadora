@@ -2,52 +2,52 @@ package operaciones;
 
 public class Calculo {
 
-	public static double sumar(int num1, int num2) {
+	public static double sumar(double num1, double num2) {
 		double suma;
 		suma=num1+num2;
 		return suma;
 	}
 	
-	public static double restar(int num1,int num2) {
+	public static double restar(double num1,double num2) {
 		double resta;
 		resta=num1-num2;
 		return resta;
 	}
 	
-	public static double multiplicar(int num1,int num2) {
-		int multiplicacion;
+	public static double multiplicar(double num1,double num2) {
+		double multiplicacion;
 		multiplicacion=num1*num2;
 		return multiplicacion;
 	}
 	
-	public static double dividir(int num1,int num2) {
-		int division;
+	public static double dividir(double num1,double num2) {
+		double division;
 		division=num1/num2;
 		return division;
 		
 	}
 	
-	public static double elevarNumeroAlCuadrado(int x) {
-		int cuadrado;
-		cuadrado=(int)(Math.pow(x, 2));
+	public static double elevarNumeroAlCuadrado(double x) {
+		double cuadrado;
+		cuadrado=(Math.pow(x, 2));
 		return cuadrado;
 	}
 	
-	public static double elevarNumeroAUnaPotencia(int base, int exponente) {
-		int potencia;
-		potencia=(int)Math.pow(base, exponente);
+	public static double elevarNumeroAUnaPotencia(double base, double exponente) {
+		double potencia;
+		potencia=(Math.pow(base, exponente));
 		return potencia;
 	}
 	
-	public static double RaizCuadradaDeUnNumero(int x) {
-		int raizCuadrada;
-		raizCuadrada=(int)Math.sqrt(x);
+	public static double RaizCuadradaDeUnNumero(double x) {
+		double raizCuadrada;
+		raizCuadrada=Math.sqrt(x);
 		return raizCuadrada;
 	}
 	
-	public static double RaizCubicaDeUnNumero(int y) {
-		int raizCubica;
-		raizCubica=(int)Math.cbrt(y);
+	public static double RaizCubicaDeUnNumero(double y) {
+		double raizCubica;
+		raizCubica=Math.cbrt(y);
 		return raizCubica;
 	}
 	
@@ -70,8 +70,8 @@ public class Calculo {
 				
 	}
 	
-	public static int BuscarValorAbsoluto(double abs) {
-		int valorAbs=(int)(Math.abs(abs));
+	public static double BuscarValorAbsoluto(double abs) {
+		double valorAbs=(Math.abs(abs));
 		System.out.println("| "+valorAbs+" |");
 		return valorAbs;
 		
