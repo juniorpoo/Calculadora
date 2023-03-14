@@ -77,4 +77,19 @@ public class Calculo {
 		
 	}
 	
+//	create un metodo que coja como parametro un arreglo de string,
+//	y que devuelva el string q tiene mas caracteres de todos
+	
+	public static String devolverStringConMasCaracteres(String[] array) {
+		String fraseMayor="";
+		for(int i=0;i<array.length;i++) {
+			String frase=array[i];
+			if(frase.length()>fraseMayor.length()) {
+				fraseMayor=frase;
+			}
+		}
+		return fraseMayor;
+		
+	}
+	
 }

@@ -2,7 +2,7 @@ package operaciones;
 
 public class Prueba {
 	
-	public static boolean verificarIgualdad(double valorObtenido, double valorEsperado) {
+	  public static boolean verificarIgualdad(double valorObtenido, double valorEsperado) {
 		boolean result;
 		if(valorObtenido==valorEsperado) {
 			result = true;
@@ -15,12 +15,12 @@ public class Prueba {
 
 	public static void main(String[] args) {
 	
-		double result1 =Calculo.sumar(17.5, 8);
+		/*double result1 =Calculo.sumar(17.5, 8);
 		double result2 =Calculo.restar(45, 23);
 		double result3 =Calculo.multiplicar(3, 3);
 		double result4 =Calculo.dividir(32, 5);
 		double result5 =Calculo.elevarNumeroAlCuadrado(25);
-		double result6 =Calculo.elevarNumeroAUnaPotencia(23, 2);
+		double result6 =Calculo.elevarNumeroAUnaPotencia(2, 8);
 		double result7 =Calculo.RaizCuadradaDeUnNumero(25);
 		double result8 =Calculo.RaizCubicaDeUnNumero(27);
 		double result9= Calculo.BuscarSenoDeUnNumero(9);
@@ -37,7 +37,7 @@ public class Prueba {
 		System.out.println(result8);
 		System.out.println(result9);
 		System.out.println(result10);
-	    System.out.println(result11);*/
+	    System.out.println(result11);
 		
 		boolean esCorrecto1=verificarIgualdad(result1,25.5);
 		boolean esCorrecto2=verificarIgualdad(result2,23);
@@ -51,7 +51,13 @@ public class Prueba {
 		boolean esCorrecto10=verificarIgualdad(result10,0.89364357467657348);
 		boolean esCorrecto11=verificarIgualdad(result11,0.9999999999999999);
 		boolean esCorrecto12=verificarIgualdad(result12,34.6);
-		System.out.println(esCorrecto12);
+		System.out.println(esCorrecto12);*/
+		
+		String[] vector={"Yefri", "Manuel","Maquendi Beltran", "Yessenia", 
+				"Diana", "Diego", "Milanda Beltran ", "Danny", "Santa","Hernesto","Dora",
+				"Chipi","Audrey"};
+		String resultado=Calculo.devolverStringConMasCaracteres(vector);
+		System.out.println(resultado);
 		
 	}
 
