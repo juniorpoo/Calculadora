@@ -27,7 +27,7 @@ public class Prueba {
 		double result10 =Calculo.BuscarCosenoDeUnNumero(9);
 		double result11 =Calculo.BuscarTangenteDeUnNumero(45);
 		double result12 =Calculo.BuscarValorAbsoluto(-34);
-	/*	System.out.println(result1);
+		/*System.out.println(result1);
 		System.out.println(result2);
 		System.out.println(result3);
 		System.out.println(result4);
@@ -53,11 +53,15 @@ public class Prueba {
 		boolean esCorrecto12=verificarIgualdad(result12,34.6);
 		System.out.println(esCorrecto12);*/
 		
-		String[] vector={"Yefri", "Manuel","Maquendi Beltran", "Yessenia", 
+		double result4 =Calculo.dividir(32, 0);
+		System.out.println(result4);
+	
+		
+		/*String[] vector={"Yefri", "Manuel","Maquendi Beltran", "Yessenia", 
 				"Diana", "Diego", "Milanda Beltran ", "Danny", "Santa","Hernesto","Dora",
 				"Chipi","Audrey"};
 		String resultado=Calculo.devolverStringConMasCaracteres(vector);
-		System.out.println(resultado);
+		System.out.println(resultado);*/
 		
 	}
 

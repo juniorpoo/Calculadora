@@ -15,8 +15,7 @@ public class Prueba2 {
 		double result7=CalculoTest.devolverSumaTotal(array);
 		double[] result8=CalculoTest.devolverArregloMultiplicadoPor10(array);
 		double result9=CalculoTest.devolverMutiplicacionTotal(arreglo);
-		System.out.println(result9);
-
+	//	System.out.println(result9);
 
 
 	}

@@ -21,28 +21,29 @@ public class Calculo {
 	}
 	
 	public static double dividir(double num1,double num2) {
-		double division;
-		division=num1/num2;
+		double division=0;
+		if(num2!=0) {
+			division=num1/num2;
+		}
 		return division;
 		
 	}
 	
 	public static double elevarNumeroAlCuadrado(double x) {
-		double cuadrado;
-		cuadrado=(Math.pow(x, 2));
-		return cuadrado;
+		return (Math.pow(x, 2));
+
 	}
 	
 	public static double elevarNumeroAUnaPotencia(double base, double exponente) {
-		double potencia;
-		potencia=(Math.pow(base, exponente));
-		return potencia;
+		
+		return (Math.pow(base, exponente));
+		
 	}
 	
 	public static double RaizCuadradaDeUnNumero(double x) {
-		double raizCuadrada;
-		raizCuadrada=Math.sqrt(x);
-		return raizCuadrada;
+		
+		return Math.sqrt(x);
+		
 	}
 	
 	public static double RaizCubicaDeUnNumero(double y) {
